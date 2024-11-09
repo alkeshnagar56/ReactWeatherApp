@@ -125,8 +125,11 @@ body{
     background-size: cover;
 }
 @media screen and (max-width:600px) {
+    body{
+        padding: 20px;
+    }
     .mainPardiv{
-        width: 70%;
+        width: 60%;
     }
     .CityInput{
         font-size: 14px;
